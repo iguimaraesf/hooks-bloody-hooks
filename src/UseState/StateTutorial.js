@@ -5,7 +5,6 @@ function StateTutorial() {
   const [inputValue, setInputValue] = useState("valor inicial")
   const increment = () => {
     setCounter(1 + counter);
-    console.log(counter);
   }
   const onChange = (event) => {
     const newValue = event.target.value
@@ -13,11 +12,11 @@ function StateTutorial() {
   }
   return (
     <div>
+      <div className='title'>StateTutorial</div>
         Olá, StateTutorial {counter} <button onClick={increment}>Incrementar</button>
         <br/>
         <input placeholder='Digite algo' onChange={onChange}/>
         {inputValue}
-        <hr/>
     </div>
   )
 }

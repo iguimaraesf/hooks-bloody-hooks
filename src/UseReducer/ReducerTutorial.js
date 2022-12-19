@@ -17,6 +17,7 @@ function ReducerTutorial() {
   })
   return (
     <div>
+      <div className='title'>ReducerTutorial</div>
         <b>{state.count}</b>
         <button onClick={() => {
             dispatch({ type: 'INCREMENT' })

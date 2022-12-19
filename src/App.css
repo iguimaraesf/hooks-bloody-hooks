@@ -24,6 +24,15 @@
   color: white;
 }
 
+.title {
+  background-color: #9c8e71;
+  font-size: calc(10px + 2vmin);
+}
+
+.simple {
+  text-align: left;
+}
+
 .App-link {
   color: #61dafb;
 }
